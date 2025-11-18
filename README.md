@@ -8,7 +8,7 @@ Este proyecto consta de dos potentes scripts en Bash diseñados para administrad
 
 ## 🚀 Características Principales
 
-### 📦 Backup All-in-One (`backup_lxc_aio.sh`)
+### 📦 Backup All-in-One (`proxmox_lxc_backup.sh`)
 * **Menú asistente:**
     * **Interactivo:** Muestra menús visuales (`whiptail`) para seleccionar contenedores específicos y decidir qué contenedores respaldar.
     * **Automático (Cron):** Si se ejecuta programado, detecta la falta de usuario y respalda/sube **TODO** automáticamente sin intervención.
@@ -19,7 +19,7 @@ Este proyecto consta de dos potentes scripts en Bash diseñados para administrad
     * **Nube:** Elimina automáticamente los backups antiguos en MEGA respetando tu límite configurado.
 * **Login Persistente/Interactivo:** Si la sesión de MEGA expira, solicita credenciales al momento para continuar.
 
-### 🚑 Restore Wizard (`restore_wizard.sh`)
+### 🚑 Restore Wizard (`proxmox_lxc_restore.sh`)
 * **Asistente Paso a Paso:** Interfaz gráfica en terminal para guiarte en todo el proceso.
 * **Explorador de Nube:** Lista los backups disponibles en tu cuenta de MEGA y permite descargarlos selectivamente si no los tienes en local.
 * **Gestión de Conflictos:**
@@ -77,7 +77,7 @@ Abre los scripts con `nano` o `vim` y ajusta la cabecera según tu entorno. Las 
 
 ---
 
-## 🖥️ Uso: Script de Backup (`backup_lxc_aio.sh`)
+## 🖥️ Uso: Script de Backup (`proxmox_lxc_backup.sh`)
 
 ### Modo Manual (Interactivo)
 Ejecútalo directamente en tu terminal:
