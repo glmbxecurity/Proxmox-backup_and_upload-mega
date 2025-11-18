@@ -51,6 +51,9 @@ Este proyecto consta de dos potentes scripts en Bash diseñados para administrad
 ## 📥 Instalación
 
 1.  Clona este repositorio o descarga los scripts en tu servidor (por ejemplo, en `/root/scripts/`).
+```bash
+git clone https://github.com/glmbxecurity/Proxmox-backup_and_upload-mega/
+```
 2.  Dales permisos de ejecución:
     ```bash
     chmod +x proxmox_lxc_backup.sh proxmox_lxc_restore.sh
